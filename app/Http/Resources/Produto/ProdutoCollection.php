@@ -15,6 +15,8 @@ class ProdutoCollection extends ResourceCollection
      */
     public function toArray($request)
     {
-        return parent::toArray($request);
+        return [
+          'prod_nome' => $this->prod_nome
+        ];
     }
 }

@@ -14,7 +14,7 @@ class AnalisesController extends Controller
      */
     public function index(Analises $Analises, $analise)
     {
-        return $Analises::find($analise);
+        return $Analises::where('prod_id', $analise)->get();
     }
 
     /**
