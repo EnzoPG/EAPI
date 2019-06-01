@@ -16,7 +16,9 @@ class ProdutoCollection extends ResourceCollection
     public function toArray($request)
     {
         return [
-          'prod_nome' => $this->prod_nome
+          'href' => [
+              'link' => route('produtos.show', $this->prod_id)
+          ]
         ];
     }
 }
