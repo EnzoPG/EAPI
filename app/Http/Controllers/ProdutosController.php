@@ -48,7 +48,7 @@ class ProdutosController extends Controller
   */
   public function show($produto)
   {
-    return ProdutoResource::collection(Produtos::find($produto));
+    return new ProdutoResource(Produtos::find($produto));
   }
 
   /**

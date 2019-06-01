@@ -21,6 +21,6 @@ class Produtos extends Model
   ];
 
   public function analises(){
-    return $this->hasMany(Produtos::class, $primaryKey);
+    return $this->hasMany(Produtos::class);
   }
 }
