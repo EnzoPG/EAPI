@@ -103,6 +103,7 @@ class ProdutosController extends Controller
   */
   public function destroy(Produtos $produtos)
   {
-    //
+    $produtos->delete();
+    return response(null, Response::HTTP_NO_CONTENT);
   }
 }
