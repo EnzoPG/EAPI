@@ -43,7 +43,7 @@ class ProdutosController extends Controller
   */
   public function store(ProdutosRequest $request)
   {
-    $Produto = new Produto;
+    $Produto = new Produtos;
     $Produto->prod_nome = $request->prod_nome;
     $Produto->prod_details = $request->prod_details;
     $Produto->prod_preco = $request->prod_preco;
@@ -86,7 +86,13 @@ class ProdutosController extends Controller
   */
   public function update(Request $request, Produtos $produtos)
   {
-    //
+    $request['prod_details'] = $request->descricao;
+    unset($request['descricao']);
+    $produtos->update($request->all());
+
+    return response ([
+      'data' => ProdutoResource($Produto);
+    ],Response::HTTP_CREATED);
   }
 
   /**
@@ -97,6 +103,7 @@ class ProdutosController extends Controller
   */
   public function destroy(Produtos $produtos)
   {
-    //
+    $produtos->delete();
+    return response(null, Response::HTTP_NO_CONTENT);
   }
 }
