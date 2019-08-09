@@ -51,7 +51,7 @@ class ProdutosController extends Controller
     $Produto->save();
 
     return response ([
-      'data' => ProdutoResource($Produto);
+      'data' => ProdutoResource($Produto)
     ],Response::HTTP_CREATED);
   }
 
