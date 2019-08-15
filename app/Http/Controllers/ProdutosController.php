@@ -91,7 +91,7 @@ class ProdutosController extends Controller
     $produtos->update($request->all());
 
     return response ([
-      'data' => ProdutoResource($Produto);
+      'data' => ProdutoResource($Produto)
     ],Response::HTTP_CREATED);
   }
 
