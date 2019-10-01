@@ -8,6 +8,7 @@
                 <div class="card-header">{{ __('Login') }}</div>
 
                 <div class="card-body">
+                  <img src="qrcode.svg" height="200px" width="200px" style="margin-left: 250px;" />
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
 
