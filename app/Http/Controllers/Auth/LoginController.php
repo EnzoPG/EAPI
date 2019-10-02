@@ -3,7 +3,9 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
+use Symfony\Component\Process\Process;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Symfony\Component\Process\Exception\ProcessFailedException;
 
 class LoginController extends Controller
 {
@@ -34,6 +36,6 @@ class LoginController extends Controller
   */
   public function __construct()
   {
-    $this->middleware('guest')->except('logout');
+    $this->middleware('guest')->except('logout');  
   }
 }
