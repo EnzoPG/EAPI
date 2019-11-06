@@ -23,10 +23,10 @@ _Arquivo_ __.sql__ -> _Diretório:_ __/bd__
 <table>
     <thead>
         <th>Autenticação :lock:</th>
-        <th>Cadastro de Produtos</th>
+        <th>Cadastro de Produtos :floppy_disk:</th>
         <th>Listagem de Produtos :clipboard:</th>
         <th>Edição de Produtos :pencil2:</th>
-        <th>Remoção de Produtos</th>
+        <th>Remoção de Produtos :heavy_multiplication_x:</th>
     </thead>
     <tbody>
         <tr>
