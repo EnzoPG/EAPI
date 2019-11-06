@@ -1,9 +1,20 @@
-EAPI
-    - You gonna need: 
-      - PHP Version 7.2 +;
-      - Apache;
-      - Laravel 5.4 +;
-      - Postman (Just in test cases);
-    - Clone this repository;
-    - Run using the following command: php artisan serve;
-    - Inside the repository, on terminal, run the command: php artisan rout:list -> to see all the routes availables to get the responses;
+# EAPI
+
+### Ferramentas Necessárias
++ `PHP 7.2 +`;
++ `Apache`;
++ `MySQL`;
++ `Laravel 5.4 +`;
++ `Postman (Para casos de Testes)`;
+
+### Ao clonar o projeto, na raíz você deverá executar:
+```php
+php artisan serve
+```
+
+### Variáveis de conexão com o banco;
+#### Devem estar no arquivo:
++ `.env`
+
+### O banco deverá ser criado manualmente
+_Arquivo_ __.sql__ -> _Diretório:_ __/bd__
