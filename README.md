@@ -4,7 +4,7 @@
 + `PHP 7.2 +`;
 + `Apache`;
 + `MySQL`;
-+ `Laravel 5.4 +`;
++ `Laravel 5.6 +`;
 + `Postman (Para casos de Testes)`;
 
 ### Ao clonar o projeto, na raíz você deverá executar:
@@ -38,3 +38,9 @@ _Arquivo_ __.sql__ -> _Diretório:_ __/bd__
         </tr>
     </tbody>
 </table>
+
+### Referências
+[Heroku](http://dry-atoll-58988.herokuapp.com)
+
+## Autor
+[Enzo Gerola](https://www.linkedin.com/in/enzo-gerola-7b4700139/)
