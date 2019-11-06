@@ -39,6 +39,9 @@ _Arquivo_ __.sql__ -> _Diretório:_ __/bd__
     </tbody>
 </table>
 
+### Métodos de Requisição (Resquests)
+![Route List](/public/img/route.png)
+
 ### Referências
 [Heroku](http://dry-atoll-58988.herokuapp.com)
 

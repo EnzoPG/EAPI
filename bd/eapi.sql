@@ -641,9 +641,6 @@ CREATE TABLE `users` (
 -- Despejando dados para a tabela `users`
 --
 
-INSERT INTO `users` (`user_id`, `user_name`, `email`, `password`, `email_verified_at`, `remember_token`, `updated_at`, `created_at`) VALUES
-(1, 'Enzo', 'enzo-pg@hotmail.com', '$2y$10$v3AQ/9crRcCirAAVxeAl2u78OXJU/uncDU0m5dvggW7fHFtoRXXpi', 'NULL', '4PGr0arZYPhlAVG0bwzYn3DYlEhTe7eSPdBoRXDVnmddJPlN9ZV0E4zMdRZ6', '2019-08-15', '2019-08-15');
-
 --
 -- Índices de tabelas apagadas
 --
